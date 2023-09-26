@@ -1,0 +1,116 @@
+[
+  {
+    "source": "The user should be in facebook page",
+    "steps": [
+      {
+        "name": "The user should be in facebook page",
+        "aggregatedDurations": {
+          "median": 0.000107,
+          "average": 0.000602733
+        },
+        "durations": [
+          {
+            "duration": 0.0015953,
+            "location": "file:src/test/resources/Features/facebook.feature:5"
+          },
+          {
+            "duration": 0.000107,
+            "location": "file:src/test/resources/Features/register.feature:5"
+          },
+          {
+            "duration": 0.0001059,
+            "location": "file:src/test/resources/Features/register.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user has to click the create new account link",
+    "steps": [
+      {
+        "name": "The user has to click the create new account link",
+        "aggregatedDurations": {
+          "median": 4.306025550,
+          "average": 4.306025550
+        },
+        "durations": [
+          {
+            "duration": 4.305937,
+            "location": "file:src/test/resources/Features/register.feature:9"
+          },
+          {
+            "duration": 4.3061141,
+            "location": "file:src/test/resources/Features/register.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user has to fill the firstname , lastname and other datails",
+    "steps": [
+      {
+        "name": "The user has to fill the firstname , lastname and other datails",
+        "aggregatedDurations": {
+          "median": 2.875630450,
+          "average": 2.875630450
+        },
+        "durations": [
+          {
+            "duration": 3.0077976,
+            "location": "file:src/test/resources/Features/register.feature:10"
+          },
+          {
+            "duration": 2.7434633,
+            "location": "file:src/test/resources/Features/register.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user has to click the {string} button",
+    "steps": [
+      {
+        "name": "The user has to click the \"signup\" button",
+        "aggregatedDurations": {
+          "median": 3.671078950,
+          "average": 3.671078950
+        },
+        "durations": [
+          {
+            "duration": 3.9746475,
+            "location": "file:src/test/resources/Features/register.feature:11"
+          },
+          {
+            "duration": 3.3675104,
+            "location": "file:src/test/resources/Features/register.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user get message {string}",
+    "steps": [
+      {
+        "name": "The user get message \"successfully registered\"",
+        "aggregatedDurations": {
+          "median": 0.000859000,
+          "average": 0.000859000
+        },
+        "durations": [
+          {
+            "duration": 0.0003411,
+            "location": "file:src/test/resources/Features/register.feature:12"
+          },
+          {
+            "duration": 0.0013769,
+            "location": "file:src/test/resources/Features/register.feature:18"
+          }
+        ]
+      }
+    ]
+  }
+]

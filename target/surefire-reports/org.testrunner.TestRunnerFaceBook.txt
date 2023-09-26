@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: org.testrunner.TestRunnerFaceBook
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 92.23 sec <<< FAILURE!
+Invalid login-To validate the login with invalid credentials(To validate the login functionality of facebook application)  Time elapsed: 20.689 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.stepdefinition.LoginSteps.the_user_has_enter_the_and(LoginSteps.java:30)
+	at ?.The user has enter the "mani" and "maddy"(file:src/test/resources/Features/facebook.feature:10)
+
+valid login-To validate the login with invalid credentials(To validate the login functionality of facebook application)  Time elapsed: 30.063 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.stepdefinition.LoginSteps.the_user_has_enter_the_and(LoginSteps.java:30)
+	at ?.The user has enter the "kumar" and "8900898"(file:src/test/resources/Features/facebook.feature:19)
+
